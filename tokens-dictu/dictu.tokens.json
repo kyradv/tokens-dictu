@@ -1,0 +1,16 @@
+{
+  "test": {
+    "dictu": {
+      "test": {
+        "value": "#f00",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "test"
+    ]
+  }
+}

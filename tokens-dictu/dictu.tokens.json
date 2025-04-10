@@ -607,7 +607,7 @@
           }
         },
         "text": {
-          "flea": {
+          "1": {
             "$type": "dimension",
             "$value": "1px",
             "$description": "0.125ch"

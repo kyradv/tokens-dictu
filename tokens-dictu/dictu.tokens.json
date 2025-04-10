@@ -523,85 +523,85 @@
       },
       "space": {
         "inline": {
-          "100": {
+          "2": {
+            "$type": "dimension",
+            "$value": "2px"
+          },
+          "4": {
+            "$type": "dimension",
+            "$value": "4px"
+          },
+          "8": {
+            "$type": "dimension",
+            "$value": "8px"
+          },
+          "12": {
+            "$type": "dimension",
+            "$value": "12px"
+          },
+          "16": {
             "$type": "dimension",
             "$value": "16px"
           },
-          "125": {
+          "20": {
             "$type": "dimension",
             "$value": "20px"
           },
-          "150": {
+          "24": {
             "$type": "dimension",
             "$value": "24px"
           },
-          "175": {
+          "28": {
             "$type": "dimension",
             "$value": "28px"
           },
-          "200": {
+          "32": {
             "$type": "dimension",
             "$value": "32px"
           },
-          "300": {
+          "48": {
             "$type": "dimension",
             "$value": "48px"
-          },
-          "0125": {
-            "$type": "dimension",
-            "$value": "2px"
-          },
-          "025": {
-            "$type": "dimension",
-            "$value": "4px"
-          },
-          "050": {
-            "$type": "dimension",
-            "$value": "8px"
-          },
-          "075": {
-            "$type": "dimension",
-            "$value": "12px"
           }
         },
         "block": {
-          "flea": {
+          "2": {
             "$type": "dimension",
             "$value": "2px"
           },
-          "ant": {
+          "4": {
             "$type": "dimension",
             "$value": "4px"
           },
-          "beetle": {
+          "8": {
             "$type": "dimension",
             "$value": "8px"
           },
-          "snail": {
+          "12": {
             "$type": "dimension",
             "$value": "12px"
           },
-          "mouse": {
+          "16": {
             "$type": "dimension",
             "$value": "16px"
           },
-          "rat": {
+          "20": {
             "$type": "dimension",
             "$value": "20px"
           },
-          "rabbit": {
+          "24": {
             "$type": "dimension",
             "$value": "24px"
           },
-          "cat": {
+          "32": {
             "$type": "dimension",
             "$value": "32px"
           },
-          "dog": {
+          "48": {
             "$type": "dimension",
             "$value": "48px"
           },
-          "pig": {
+          "64": {
             "$type": "dimension",
             "$value": "64px"
           }
@@ -844,13 +844,13 @@
           "$value": "160px"
         },
         "icon": {
-          "sm": {
+          "100": {
             "$type": "dimension",
-            "$value": "16px"
+            "$value": "1rem"
           },
-          "md": {
+          "150": {
             "$type": "dimension",
-            "$value": "24px"
+            "$value": "1.5rem"
           },
           "lg": {
             "$type": "dimension",
@@ -920,12 +920,6 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "RijksoverheidSerifWeb, 'Times New Roman', serif"
-          }
-        },
-        "code": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Fira Code, Monaco, monospace"
           }
         }
       },
@@ -1000,6 +994,12 @@
         }
       },
       "font-size": {
+        "75": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "0.75rem"
+          }
+        },
         "100": {
           "$type": "typography",
           "$value": {
@@ -1034,12 +1034,6 @@
           "$type": "typography",
           "$value": {
             "fontSize": "3rem"
-          }
-        },
-        "075": {
-          "$type": "typography",
-          "$value": {
-            "fontSize": "0.75rem"
           }
         }
       }
@@ -1174,42 +1168,18 @@
             "$value": "{dictu.color.bruin.500}"
           }
         }
+      },
+      "paragraph": {
+        "font-family": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{dictu.font-family.primary}"
+          }
+        }
       }
     },
     "utrecht": {
-      "document": {
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{dictu.typography.font-family.secondary}"
-        },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{dictu.typography.font-size.md}"
-        },
-        "font-weight": {
-          "$type": "fontWeights",
-          "$value": "{dictu.typography.font-weight.200}"
-        },
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{dictu.typography.line-height.md}"
-        }
-      },
-      "heading": {
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{dictu.typography.font-family.primary}"
-        },
-        "font-weight": {
-          "$type": "fontWeights",
-          "$value": "{dictu.typography.font-weight.700}"
-        }
-      },
       "form-control": {
-        "font-weight": {
-          "$type": "fontWeights",
-          "$value": "{dictu.typography.font-weight.200}"
-        },
         "border-width": {
           "$type": "dimension",
           "$value": "{dictu.border-width.sm}"
@@ -1230,37 +1200,25 @@
           "$type": "dimension",
           "$value": "0px"
         },
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{dictu.typography.font-family.secondary}"
-        },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{dictu.typography.font-size.md}"
-        },
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{dictu.typography.line-height.md}"
-        },
         "max-inline-size": {
           "$type": "dimension",
           "$value": "400px"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.075}"
+          "$value": "{dictu.space.inline.12}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.075}"
+          "$value": "{dictu.space.inline.12}"
         }
       },
       "focus": {
@@ -1383,12 +1341,6 @@
             "$type": "color",
             "$value": "{dictu.color.grijs.600}"
           }
-        },
-        "strong": {
-          "font-weight": {
-            "$type": "fontWeights",
-            "$value": "{dictu.typography.font-weight.700}"
-          }
         }
       },
       "interaction": {
@@ -1413,7 +1365,7 @@
         "functional": {
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.icon.md}"
+            "$value": "{dictu.size.icon.150}"
           }
         },
         "toptask": {
@@ -1494,12 +1446,6 @@
             "$value": "{dictu.space.row.horse}"
           }
         }
-      },
-      "code": {
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{dictu.typography.font-family.code}"
-        }
       }
     }
   },
@@ -1517,19 +1463,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         },
         "button": {
@@ -1545,19 +1491,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "background-color": {
             "$type": "color",
@@ -1647,7 +1593,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -1686,7 +1632,7 @@
         },
         "font-familiy": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -1706,19 +1652,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "lg": {
           "gap": {
@@ -1727,11 +1673,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           }
         },
         "date": {
@@ -1797,19 +1743,19 @@
         "single": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "hover": {
             "background-color": {
@@ -1900,19 +1846,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.rat}"
+          "$value": "{dictu.space.block.20}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "content": {
           "row-gap": {
@@ -1985,7 +1931,7 @@
         "icon": {
           "inset-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.flea}"
+            "$value": "{dictu.space.block.2}"
           },
           "size": {
             "$type": "dimension",
@@ -2027,7 +1973,7 @@
         "heading": {
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -2077,7 +2023,7 @@
         "text": {
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -2184,15 +2130,15 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
@@ -2234,7 +2180,7 @@
       "breadcrumb-nav": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -2251,19 +2197,19 @@
         "item": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           }
         },
         "link": {
@@ -2346,7 +2292,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -2373,11 +2319,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -2458,11 +2404,11 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{dictu.color.gray.900}"
+          "$value": "{dictu.color.grijs.900}"
         },
         "color": {
           "$type": "color",
-          "$value": "{dictu.color.gray.900}"
+          "$value": "{dictu.color.grijs.900}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -2480,7 +2426,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -2496,24 +2442,24 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "disabled": {
           "background-color": {
             "$type": "color",
-            "$value": "{dictu.color.gray.50}"
+            "$value": "{dictu.color.grijs.50}"
           },
           "border-color": {
             "$type": "color",
@@ -2521,7 +2467,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{dictu.color.gray.500}"
+            "$value": "{dictu.color.grijs.500}"
           }
         },
         "focus": {
@@ -2541,7 +2487,7 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{dictu.color.gray.50}"
+            "$value": "{dictu.color.grijs.50}"
           },
           "border-color": {
             "$type": "color",
@@ -2555,7 +2501,7 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{dictu.color.gray.100}"
+            "$value": "{dictu.color.grijs.100}"
           },
           "border-color": {
             "$type": "color",
@@ -2608,7 +2554,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.50}"
+              "$value": "{dictu.color.grijs.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2616,7 +2562,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.500}"
+              "$value": "{dictu.color.grijs.500}"
             }
           },
           "focus": {
@@ -2664,7 +2610,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.50}"
+              "$value": "{dictu.color.grijs.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2690,7 +2636,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.50}"
+              "$value": "{dictu.color.grijs.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2698,7 +2644,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.500}"
+              "$value": "{dictu.color.grijs.500}"
             }
           },
           "focus": {
@@ -2722,7 +2668,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.100}"
+              "$value": "{dictu.color.grijs.100}"
             },
             "border-color": {
               "$type": "color",
@@ -2754,7 +2700,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.dark.alpha.50}"
+              "$value": "rgba(0,0,0,0.05)"
             },
             "border-color": {
               "$type": "color",
@@ -2780,7 +2726,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.50}"
+              "$value": "{dictu.color.grijs.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2788,7 +2734,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{dictu.color.gray.500}"
+              "$value": "{dictu.color.grijs.500}"
             }
           },
           "focus": {
@@ -2808,7 +2754,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{dictu.color.dark.alpha.100}"
+              "$value": "{dictu.color.black}"
             },
             "border-color": {
               "$type": "color",
@@ -2845,7 +2791,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -2864,11 +2810,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.rat}"
+          "$value": "{dictu.space.block.20}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.150}"
+          "$value": "{dictu.space.inline.24}"
         },
         "icon": {
           "size": {
@@ -3280,11 +3226,11 @@
       "checkbox-group": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "row-gap": {
           "$type": "dimension",
@@ -3370,11 +3316,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         }
       }
     }
@@ -3404,19 +3350,19 @@
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.mouse}"
+          "$value": "{dictu.space.block.16}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         }
       }
     }
@@ -3499,7 +3445,7 @@
         "step": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.cat}"
+            "$value": "{dictu.space.block.32}"
           },
           "distance": {
             "$type": "dimension",
@@ -3516,22 +3462,22 @@
           "mobile": {
             "margin-inline-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.inline.200}"
+              "$value": "{dictu.space.inline.32}"
             }
           },
           "file": {
             "margin-block-end": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.rabbit}"
+              "$value": "{dictu.space.block.24}"
             },
             "margin-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.rabbit}"
+              "$value": "{dictu.space.block.24}"
             },
             "mobile": {
               "margin-block-end": {
                 "$type": "dimension",
-                "$value": "{dictu.space.block.cat}"
+                "$value": "{dictu.space.block.32}"
               }
             }
           },
@@ -3546,7 +3492,7 @@
             },
             "margin-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.mouse}"
+              "$value": "{dictu.space.block.16}"
             }
           }
         },
@@ -3678,7 +3624,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -3706,7 +3652,7 @@
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.025}"
+          "$value": "{dictu.space.inline.4}"
         }
       }
     }
@@ -3736,7 +3682,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -3764,7 +3710,7 @@
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.025}"
+          "$value": "{dictu.space.inline.4}"
         }
       }
     }
@@ -3794,11 +3740,11 @@
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "max-block-size": {
           "$type": "dimension",
@@ -3818,11 +3764,11 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.rabbit}"
+          "$value": "{dictu.space.block.24}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.rabbit}"
+          "$value": "{dictu.space.block.24}"
         },
         "backdrop": {
           "min-size": {
@@ -3879,19 +3825,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "label": {
             "color": {
@@ -3900,7 +3846,7 @@
             },
             "font-family": {
               "$type": "fontFamilies",
-              "$value": "{utrecht.document.font-family}"
+              "$value": "{dictu.document.font-family1}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -3919,15 +3865,15 @@
         "content": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         },
         "footer": {
@@ -3945,19 +3891,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         }
       }
@@ -4009,11 +3955,11 @@
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         },
         "link": {
@@ -4049,19 +3995,19 @@
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           }
         }
       }
@@ -4081,7 +4027,7 @@
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         }
       }
@@ -4106,7 +4052,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4132,7 +4078,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4242,7 +4188,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4290,7 +4236,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-weight": {
           "$type": "fontWeights",
@@ -4320,7 +4266,7 @@
       "form-summary": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "item-value": {
           "font-weight": {
@@ -4330,11 +4276,11 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-inline-end": {
               "$type": "dimension",
@@ -4347,11 +4293,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -4370,15 +4316,15 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-inline-end": {
               "$type": "dimension",
-              "$value": "{dictu.space.inline.100}"
+              "$value": "{dictu.space.inline.16}"
             },
             "padding-inline-start": {
               "$type": "dimension",
@@ -4387,11 +4333,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -4428,11 +4374,11 @@
           "row": {
             "padding-block-end": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.snail}"
+              "$value": "{dictu.space.block.12}"
             },
             "padding-inline-end": {
               "$type": "dimension",
@@ -4440,20 +4386,20 @@
             },
             "padding-inline-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.inline.100}"
+              "$value": "{dictu.space.inline.16}"
             }
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
@@ -4473,7 +4419,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4495,7 +4441,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4517,7 +4463,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4539,7 +4485,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4561,7 +4507,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4583,7 +4529,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4610,7 +4556,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-weight": {
           "$type": "fontWeights",
@@ -4694,7 +4640,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4720,7 +4666,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4746,7 +4692,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4772,7 +4718,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4798,7 +4744,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4824,7 +4770,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.heading.font-family}"
+          "$value": "{dictu.heading.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -4856,19 +4802,19 @@
       "icon-only-button": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.075}"
+          "$value": "{dictu.space.inline.12}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.075}"
+          "$value": "{dictu.space.inline.12}"
         }
       }
     }
@@ -5063,7 +5009,7 @@
         "link": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -5148,19 +5094,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.050}"
+          "$value": "{dictu.space.inline.8}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.050}"
+          "$value": "{dictu.space.inline.8}"
         },
         "min-block-size": {
           "$type": "dimension",
@@ -5176,11 +5122,11 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.075}"
+          "$value": "{dictu.space.inline.12}"
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-weight": {
           "$type": "fontWeights",
@@ -5275,19 +5221,19 @@
         "header": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "background-color": {
             "$type": "color",
@@ -5300,7 +5246,7 @@
             },
             "font-family": {
               "$type": "fontFamilies",
-              "$value": "{utrecht.document.font-family}"
+              "$value": "{dictu.document.font-family1}"
             },
             "font-weight": {
               "$type": "fontWeights",
@@ -5343,19 +5289,19 @@
         "footer": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.mouse}"
+            "$value": "{dictu.space.block.16}"
           },
           "background-color": {
             "$type": "color",
@@ -5373,15 +5319,15 @@
         "content": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         },
         "border-width": {
@@ -5411,19 +5357,19 @@
         "link": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.beetle}"
+            "$value": "{dictu.space.block.8}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         }
       }
@@ -5454,7 +5400,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -5474,11 +5420,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.ant}"
+          "$value": "{dictu.space.block.4}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.025}"
+          "$value": "{dictu.space.inline.4}"
         }
       }
     }
@@ -5508,7 +5454,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -5528,11 +5474,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.ant}"
+          "$value": "{dictu.space.block.4}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.025}"
+          "$value": "{dictu.space.inline.4}"
         }
       }
     }
@@ -5550,20 +5496,20 @@
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.150}"
+          "$value": "{dictu.space.inline.24}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           }
         }
       }
@@ -5574,7 +5520,7 @@
       "pagination": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -5609,19 +5555,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "hover": {
             "background-color": {
@@ -5661,19 +5607,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -5751,11 +5697,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-start": {
             "$type": "dimension",
@@ -5899,19 +5845,19 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.075}"
+            "$value": "{dictu.space.inline.12}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.075}"
+            "$value": "{dictu.space.inline.12}"
           },
           "focus-visible": {
             "text-decoration": {
@@ -5990,7 +5936,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "line-height": {
           "$type": "lineHeights",
@@ -6003,19 +5949,19 @@
         "ellipses": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.025}"
+            "$value": "{dictu.space.inline.4}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.025}"
+            "$value": "{dictu.space.inline.4}"
           },
           "color": {
             "$type": "color",
@@ -6048,7 +5994,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -6088,7 +6034,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -6150,7 +6096,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -6182,11 +6128,11 @@
             },
             "inset-block-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.block.ant}"
+              "$value": "{dictu.space.block.4}"
             },
             "padding-inline-start": {
               "$type": "dimension",
-              "$value": "{dictu.space.inline.050}"
+              "$value": "{dictu.space.inline.8}"
             }
           },
           "checked": {
@@ -6265,7 +6211,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -6291,7 +6237,7 @@
         "connector": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "checked": {
             "border-color": {
@@ -6325,11 +6271,11 @@
         "step-heading": {
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rat}"
+            "$value": "{dictu.space.block.20}"
           },
           "checked": {
             "color": {
@@ -6363,7 +6309,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -6719,13 +6665,13 @@
         "step-meta": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.300}"
+            "$value": "{dictu.space.inline.48}"
           }
         },
         "sub-step": {
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           }
         },
         "step-body": {
@@ -6748,7 +6694,7 @@
       "process-steps": {
         "font-familiy": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -6803,7 +6749,7 @@
           },
           "font-familiy": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -6861,7 +6807,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -6935,7 +6881,7 @@
           },
           "font-familiy": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -7194,11 +7140,11 @@
       "radio-group": {
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.beetle}"
+          "$value": "{dictu.space.block.8}"
         },
         "row-gap": {
           "$type": "dimension",
@@ -7236,7 +7182,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.form-control.font-family}"
+          "$value": "{dictu.form-control.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -7365,7 +7311,7 @@
         "item": {
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
+            "$value": "{dictu.document.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -7391,11 +7337,11 @@
           },
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "current": {
             "font-weight": {
@@ -7480,11 +7426,11 @@
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "min-block-size": {
           "$type": "dimension",
@@ -7526,19 +7472,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -7592,7 +7538,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "border-radius": {
           "$type": "dimension",
@@ -7600,11 +7546,11 @@
         },
         "padding-inline": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.025}"
+          "$value": "{dictu.space.inline.4}"
         },
         "padding-block": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.flea}"
+          "$value": "{dictu.space.block.2}"
         },
         "informative": {
           "background-color": {
@@ -7686,7 +7632,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -7694,7 +7640,7 @@
         },
         "padding": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "margin": {
           "$type": "dimension",
@@ -7949,11 +7895,11 @@
           },
           "padding-block": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.025}"
+            "$value": "{dictu.space.inline.4}"
           },
           "padding-inline": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.025}"
+            "$value": "{dictu.space.inline.4}"
           },
           "inline-size": {
             "$type": "dimension",
@@ -8044,7 +7990,7 @@
       "table": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -8065,7 +8011,7 @@
           },
           "font-family": {
             "$type": "fontFamilies",
-            "$value": "{utrecht.heading.font-family}"
+            "$value": "{dictu.heading.font-family1}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -8077,25 +8023,25 @@
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.rabbit}"
+            "$value": "{dictu.space.block.24}"
           }
         },
         "cell": {
           "padding-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.snail}"
+            "$value": "{dictu.space.block.12}"
           },
           "padding-inline-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           },
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.100}"
+            "$value": "{dictu.space.inline.16}"
           }
         },
         "footer": {
@@ -8182,7 +8128,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
+          "$value": "{dictu.document.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -8207,11 +8153,11 @@
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           }
         },
         "icon": {
@@ -8221,7 +8167,7 @@
           },
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.icon.sm}"
+            "$value": "{dictu.size.icon.100}"
           }
         }
       }
@@ -8256,7 +8202,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.form-control.font-family}"
+          "$value": "{dictu.form-control.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -8414,7 +8360,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{utrecht.form-control.font-family}"
+          "$value": "{dictu.form-control.font-family1}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -8552,19 +8498,19 @@
         },
         "padding-block-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-block-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.block.snail}"
+          "$value": "{dictu.space.block.12}"
         },
         "padding-inline-end": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.050}"
+          "$value": "{dictu.space.inline.8}"
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.050}"
+          "$value": "{dictu.space.inline.8}"
         }
       }
     }
@@ -8582,20 +8528,20 @@
         },
         "padding-inline-start": {
           "$type": "dimension",
-          "$value": "{dictu.space.inline.100}"
+          "$value": "{dictu.space.inline.16}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.inline.050}"
+            "$value": "{dictu.space.inline.8}"
           },
           "margin-block-end": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           },
           "margin-block-start": {
             "$type": "dimension",
-            "$value": "{dictu.space.block.ant}"
+            "$value": "{dictu.space.block.4}"
           }
         },
         "marker": {

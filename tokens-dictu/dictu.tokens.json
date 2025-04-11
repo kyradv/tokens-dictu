@@ -712,59 +712,59 @@
           }
         },
         "row": {
-          "flea": {
+          "25": {
             "$type": "dimension",
             "$value": "1px"
           },
-          "ant": {
+          "50": {
             "$type": "dimension",
             "$value": "2px"
           },
-          "beetle": {
+          "100": {
             "$type": "dimension",
             "$value": "4px"
           },
-          "snail": {
+          "200": {
             "$type": "dimension",
             "$value": "8px"
           },
-          "mouse": {
+          "300": {
             "$type": "dimension",
             "$value": "12px"
           },
-          "rat": {
+          "400": {
             "$type": "dimension",
             "$value": "16px"
           },
-          "rabbit": {
+          "500": {
             "$type": "dimension",
             "$value": "20px"
           },
-          "cat": {
+          "600": {
             "$type": "dimension",
             "$value": "24px"
           },
-          "dog": {
+          "700": {
             "$type": "dimension",
             "$value": "28px"
           },
-          "pig": {
+          "800": {
             "$type": "dimension",
             "$value": "32px"
           },
-          "tiger": {
+          "1200": {
             "$type": "dimension",
             "$value": "48px"
           },
-          "horse": {
+          "1600": {
             "$type": "dimension",
             "$value": "64px"
           },
-          "elephant": {
+          "2400": {
             "$type": "dimension",
             "$value": "96px"
           },
-          "giraffe": {
+          "4000": {
             "$type": "dimension",
             "$value": "160px"
           }
@@ -1427,23 +1427,23 @@
           },
           "besties": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           },
           "vrienden": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.rat}"
+            "$value": "{dictu.space.row.400}"
           },
           "bekenden": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.cat}"
+            "$value": "{dictu.space.row.600}"
           },
           "onbekenden": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.pig}"
+            "$value": "{dictu.space.row.800}"
           },
           "onbemind": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.horse}"
+            "$value": "{dictu.space.row.1600}"
           }
         }
       }
@@ -1644,7 +1644,7 @@
         },
         "gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.snail}"
+          "$value": "{dictu.space.row.200}"
         },
         "line-height": {
           "$type": "lineHeights",
@@ -1691,7 +1691,7 @@
           },
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           },
           "warning": {
             "color": {
@@ -1700,7 +1700,7 @@
             },
             "gap": {
               "$type": "dimension",
-              "$value": "{dictu.space.row.snail}"
+              "$value": "{dictu.space.row.200}"
             },
             "font-weight": {
               "$type": "fontWeights",
@@ -1719,7 +1719,7 @@
         "details": {
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           },
           "lg": {
             "gap": {
@@ -1766,7 +1766,7 @@
           "details": {
             "gap": {
               "$type": "dimension",
-              "$value": "{dictu.space.row.snail}"
+              "$value": "{dictu.space.row.200}"
             },
             "lg": {
               "gap": {
@@ -1812,7 +1812,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.snail}"
+          "$value": "{dictu.space.row.200}"
         }
       }
     }
@@ -1863,13 +1863,13 @@
         "content": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.rat}"
+            "$value": "{dictu.space.row.400}"
           }
         },
         "message": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           }
         },
         "info": {
@@ -2150,7 +2150,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.snail}"
+          "$value": "{dictu.space.row.200}"
         },
         "attribution": {
           "color": {
@@ -2806,7 +2806,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.mouse}"
+          "$value": "{dictu.space.row.300}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -3234,7 +3234,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.rat}"
+          "$value": "{dictu.space.row.400}"
         }
       }
     }
@@ -3932,7 +3932,7 @@
       "figure": {
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.snail}"
+          "$value": "{dictu.space.row.200}"
         }
       }
     }
@@ -3991,7 +3991,7 @@
         "right": {
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           },
           "padding-inline-end": {
             "$type": "dimension",
@@ -4994,7 +4994,7 @@
       "link-list": {
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.snail}"
+          "$value": "{dictu.space.row.200}"
         },
         "icon": {
           "inset-block-start": {
@@ -6677,7 +6677,7 @@
         "step-body": {
           "row-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.row.snail}"
+            "$value": "{dictu.space.row.200}"
           }
         },
         "sub-step-header": {
@@ -7148,7 +7148,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.rat}"
+          "$value": "{dictu.space.row.400}"
         }
       }
     }
@@ -7306,7 +7306,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.cat}"
+          "$value": "{dictu.space.row.600}"
         },
         "item": {
           "font-family": {
@@ -8144,7 +8144,7 @@
         },
         "row-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.row.rat}"
+          "$value": "{dictu.space.row.400}"
         },
         "item": {
           "column-gap": {

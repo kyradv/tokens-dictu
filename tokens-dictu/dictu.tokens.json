@@ -852,25 +852,17 @@
             "$type": "dimension",
             "$value": "1.5rem"
           },
-          "lg": {
+          "200": {
             "$type": "dimension",
-            "$value": "24px"
+            "$value": "2rem"
           },
-          "xl": {
+          "250": {
             "$type": "dimension",
-            "$value": "24px"
+            "$value": "2.5rem"
           },
-          "2xl": {
+          "300": {
             "$type": "dimension",
-            "$value": "32px"
-          },
-          "3xl": {
-            "$type": "dimension",
-            "$value": "40px"
-          },
-          "4xl": {
-            "$type": "dimension",
-            "$value": "48px"
+            "$value": "3rem"
           }
         }
       },
@@ -1371,7 +1363,7 @@
         "toptask": {
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.icon.4xl}"
+            "$value": "{dictu.size.icon.300}"
           }
         }
       },

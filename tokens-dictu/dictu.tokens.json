@@ -803,43 +803,43 @@
         }
       },
       "size": {
-        "5xs": {
+        "50": {
           "$type": "dimension",
           "$value": "2px"
         },
-        "4xs": {
+        "100": {
           "$type": "dimension",
           "$value": "4px"
         },
-        "3xs": {
+        "200": {
           "$type": "dimension",
           "$value": "8px"
         },
-        "2xs": {
+        "400": {
           "$type": "dimension",
           "$value": "16px"
         },
-        "xs": {
+        "600": {
           "$type": "dimension",
           "$value": "24px"
         },
-        "sm": {
+        "800": {
           "$type": "dimension",
           "$value": "32px"
         },
-        "md": {
+        "1200": {
           "$type": "dimension",
           "$value": "48px"
         },
-        "lg": {
+        "1600": {
           "$type": "dimension",
           "$value": "64px"
         },
-        "xl": {
+        "2400": {
           "$type": "dimension",
           "$value": "96px"
         },
-        "2xl": {
+        "4000": {
           "$type": "dimension",
           "$value": "160px"
         },
@@ -1230,7 +1230,7 @@
       "pointer-target": {
         "min-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.md}"
+          "$value": "{dictu.size.1200}"
         }
       }
     },
@@ -2268,7 +2268,7 @@
           "icon": {
             "size": {
               "$type": "dimension",
-              "$value": "{dictu.size.2xs}"
+              "$value": "{dictu.size.400}"
             }
           }
         }
@@ -2381,7 +2381,7 @@
           },
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.2xs}"
+            "$value": "{dictu.size.400}"
           }
         }
       }
@@ -2956,7 +2956,7 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "icon": {
           "size": {
@@ -3380,11 +3380,11 @@
         },
         "block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.sm}"
+          "$value": "{dictu.size.800}"
         },
         "inline-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.sm}"
+          "$value": "{dictu.size.800}"
         }
       }
     }
@@ -3570,7 +3570,7 @@
             },
             "size": {
               "$type": "dimension",
-              "$value": "{dictu.size.4xs}"
+              "$value": "{dictu.size.100}"
             }
           }
         }
@@ -3632,11 +3632,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.sm}"
+          "$value": "{dictu.size.800}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -3690,11 +3690,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.sm}"
+          "$value": "{dictu.size.800}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -4784,7 +4784,7 @@
       "icon": {
         "size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         }
       }
     }
@@ -5404,11 +5404,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -5458,11 +5458,11 @@
         },
         "min-block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "min-inline-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "padding-block": {
           "$type": "dimension",
@@ -6111,12 +6111,12 @@
         "step-marker": {
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.sm}"
+            "$value": "{dictu.size.800}"
           },
           "nested": {
             "size": {
               "$type": "dimension",
-              "$value": "{dictu.size.2xs}"
+              "$value": "{dictu.size.400}"
             },
             "inset-block-start": {
               "$type": "dimension",
@@ -6938,12 +6938,12 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{dictu.size.xs}"
+          "$value": "{dictu.size.600}"
         },
         "icon": {
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.3xs}"
+            "$value": "{dictu.size.200}"
           }
         },
         "active": {
@@ -7284,7 +7284,7 @@
         },
         "block-size": {
           "$type": "dimension",
-          "$value": "{dictu.size.4xs}"
+          "$value": "{dictu.size.100}"
         }
       }
     }
@@ -7640,7 +7640,7 @@
         },
         "size": {
           "$type": "dimension",
-          "$value": "{dictu.size.sm}"
+          "$value": "{dictu.size.800}"
         },
         "icon": {
           "size": {
@@ -7771,7 +7771,7 @@
         "nested": {
           "size": {
             "$type": "dimension",
-            "$value": "{dictu.size.2xs}"
+            "$value": "{dictu.size.400}"
           },
           "icon": {
             "size": {
@@ -7955,11 +7955,11 @@
           },
           "min-inline-size": {
             "$type": "dimension",
-            "$value": "{dictu.size.sm}"
+            "$value": "{dictu.size.800}"
           },
           "min-block-size": {
             "$type": "dimension",
-            "$value": "{dictu.size.sm}"
+            "$value": "{dictu.size.800}"
           },
           "box-shadow": {
             "$type": "boxShadow",

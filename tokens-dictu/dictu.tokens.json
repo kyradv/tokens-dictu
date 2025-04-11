@@ -654,59 +654,59 @@
           }
         },
         "column": {
-          "flea": {
+          "25": {
             "$type": "dimension",
             "$value": "1px"
           },
-          "ant": {
+          "50": {
             "$type": "dimension",
             "$value": "2px"
           },
-          "beetle": {
+          "100": {
             "$type": "dimension",
             "$value": "4px"
           },
-          "snail": {
+          "200": {
             "$type": "dimension",
             "$value": "8px"
           },
-          "mouse": {
+          "300": {
             "$type": "dimension",
             "$value": "12px"
           },
-          "rat": {
+          "400": {
             "$type": "dimension",
             "$value": "16px"
           },
-          "rabbit": {
+          "500": {
             "$type": "dimension",
             "$value": "20px"
           },
-          "cat": {
+          "600": {
             "$type": "dimension",
             "$value": "24px"
           },
-          "dog": {
+          "700": {
             "$type": "dimension",
             "$value": "28px"
           },
-          "pig": {
+          "800": {
             "$type": "dimension",
             "$value": "32px"
           },
-          "tiger": {
+          "1200": {
             "$type": "dimension",
             "$value": "48px"
           },
-          "horse": {
+          "1600": {
             "$type": "dimension",
             "$value": "64px"
           },
-          "elephant": {
+          "2400": {
             "$type": "dimension",
             "$value": "96px"
           },
-          "giraffe": {
+          "4000": {
             "$type": "dimension",
             "$value": "160px"
           }
@@ -1669,7 +1669,7 @@
         "lg": {
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.rat}"
+            "$value": "{dictu.space.column.400}"
           },
           "padding-block-end": {
             "$type": "dimension",
@@ -1724,7 +1724,7 @@
           "lg": {
             "gap": {
               "$type": "dimension",
-              "$value": "{dictu.space.column.rat}"
+              "$value": "{dictu.space.column.400}"
             }
           }
         },
@@ -1771,7 +1771,7 @@
             "lg": {
               "gap": {
                 "$type": "dimension",
-                "$value": "{dictu.space.column.snail}"
+                "$value": "{dictu.space.column.200}"
               }
             }
           }
@@ -1800,7 +1800,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.column.snail}"
+          "$value": "{dictu.space.column.200}"
         },
         "padding-block-end": {
           "$type": "dimension",
@@ -1842,7 +1842,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.column.snail}"
+          "$value": "{dictu.space.column.200}"
         },
         "padding-block-end": {
           "$type": "dimension",
@@ -2288,7 +2288,7 @@
       "breadcrumb-nav": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.column.snail}"
+          "$value": "{dictu.space.column.200}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -3821,7 +3821,7 @@
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.snail}"
+            "$value": "{dictu.space.column.200}"
           },
           "padding-block-end": {
             "$type": "dimension",
@@ -4038,7 +4038,7 @@
       "form-field-checkbox-option": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.column.snail}"
+          "$value": "{dictu.space.column.200}"
         }
       }
     }
@@ -4256,7 +4256,7 @@
       "form-field-radio-option": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.column.snail}"
+          "$value": "{dictu.space.column.200}"
         }
       }
     }
@@ -5267,7 +5267,7 @@
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.snail}"
+            "$value": "{dictu.space.column.200}"
           },
           "border-width": {
             "$type": "dimension",
@@ -6659,7 +6659,7 @@
         "step-header": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.rat}"
+            "$value": "{dictu.space.column.400}"
           }
         },
         "step-meta": {
@@ -6683,7 +6683,7 @@
         "sub-step-header": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.cat}"
+            "$value": "{dictu.space.column.600}"
           }
         }
       }
@@ -8149,7 +8149,7 @@
         "item": {
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.column.mouse}"
+            "$value": "{dictu.space.column.300}"
           },
           "margin-block-end": {
             "$type": "dimension",

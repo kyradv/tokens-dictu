@@ -607,47 +607,47 @@
           }
         },
         "text": {
-          "1": {
+          "25": {
             "$type": "dimension",
             "$value": "1px",
             "$description": "0.125ch"
           },
-          "ant": {
+          "50": {
             "$type": "dimension",
             "$value": "2px",
             "$description": "0.25ch"
           },
-          "beetle": {
+          "100": {
             "$type": "dimension",
             "$value": "4px",
             "$description": "0.5ch"
           },
-          "snail": {
+          "150": {
             "$type": "dimension",
             "$value": "6px",
             "$description": "0.75ch"
           },
-          "mouse": {
+          "200": {
             "$type": "dimension",
             "$value": "8px",
             "$description": "1ch"
           },
-          "rat": {
+          "300": {
             "$type": "dimension",
             "$value": "12px",
             "$description": "1.5ch"
           },
-          "rabbit": {
+          "350": {
             "$type": "dimension",
             "$value": "14px",
             "$description": "1.75ch"
           },
-          "cat": {
+          "400": {
             "$type": "dimension",
             "$value": "16px",
             "$description": "2ch"
           },
-          "dog": {
+          "600": {
             "$type": "dimension",
             "$value": "24px",
             "$description": "3ch"
@@ -1481,7 +1481,7 @@
         "button": {
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.text.mouse}"
+            "$value": "{dictu.space.text.200}"
           },
           "icon": {
             "size": {
@@ -2310,7 +2310,7 @@
           "icon": {
             "column-gap": {
               "$type": "dimension",
-              "$value": "{dictu.space.text.beetle}"
+              "$value": "{dictu.space.text.100}"
             },
             "size": {
               "$type": "dimension",
@@ -2522,7 +2522,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.text.beetle}"
+          "$value": "{dictu.space.text.100}"
         },
         "primary-action": {
           "hover": {
@@ -3520,7 +3520,7 @@
           "toggle": {
             "gap": {
               "$type": "dimension",
-              "$value": "{dictu.space.text.beetle}"
+              "$value": "{dictu.space.text.100}"
             },
             "active": {
               "color": {
@@ -3569,7 +3569,7 @@
         "step-meta": {
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.text.mouse}"
+            "$value": "{dictu.space.text.200}"
           },
           "marker": {
             "color": {
@@ -3975,7 +3975,7 @@
           },
           "gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.text.beetle}"
+            "$value": "{dictu.space.text.100}"
           },
           "icon": {
             "width": {
@@ -4120,7 +4120,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.text.mouse}"
+          "$value": "{dictu.space.text.200}"
         }
       }
     }
@@ -4184,7 +4184,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.text.beetle}"
+          "$value": "{dictu.space.text.100}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -4916,7 +4916,7 @@
         },
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.text.beetle}"
+          "$value": "{dictu.space.text.100}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -5688,7 +5688,7 @@
           "icon": {
             "margin-inline": {
               "$type": "dimension",
-              "$value": "{dictu.space.text.beetle}"
+              "$value": "{dictu.space.text.100}"
             },
             "size": {
               "$type": "dimension",
@@ -6332,7 +6332,7 @@
             },
             "margin-inline": {
               "$type": "dimension",
-              "$value": "{dictu.space.text.beetle}"
+              "$value": "{dictu.space.text.100}"
             },
             "checked": {
               "color": {
@@ -7333,7 +7333,7 @@
           },
           "column-gap": {
             "$type": "dimension",
-            "$value": "{dictu.space.text.mouse}"
+            "$value": "{dictu.space.text.200}"
           },
           "padding-block-end": {
             "$type": "dimension",
@@ -8494,7 +8494,7 @@
       "toolbar-button": {
         "column-gap": {
           "$type": "dimension",
-          "$value": "{dictu.space.text.beetle}"
+          "$value": "{dictu.space.text.100}"
         },
         "padding-block-end": {
           "$type": "dimension",
